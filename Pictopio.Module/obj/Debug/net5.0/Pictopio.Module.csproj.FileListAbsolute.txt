@@ -1,0 +1,12 @@
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.deps.json
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.dll
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\bin\Debug\net5.0\ref\Pictopio.Module.dll
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.pdb
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.csproj.AssemblyReference.cache
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.AssemblyInfoInputs.cache
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.AssemblyInfo.cs
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.csproj.CoreCompileInputs.cache
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.dll
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\ref\Pictopio.Module.dll
+C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.pdb

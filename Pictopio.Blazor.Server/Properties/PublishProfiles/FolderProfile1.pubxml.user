@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Gerard\source\repos\Web\Pictopio\Pictopio.Blazor.Server\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-03-08T12:52:53.5754160Z;True|2022-03-08T11:34:41.4636367+08:00;True|2022-03-07T19:10:36.9363917+08:00;True|2022-03-07T19:09:03.2614741+08:00;True|2022-03-07T16:43:10.0643928+08:00;True|2022-03-07T14:23:56.6681760+08:00;True|2022-03-07T13:11:41.8571300+08:00;True|2022-03-07T13:09:03.4966777+08:00;True|2022-03-07T13:06:40.3420386+08:00;True|2022-03-07T12:49:34.8441914+08:00;True|2022-03-06T22:13:26.3938115+08:00;True|2022-03-06T22:12:55.3610091+08:00;True|2022-03-06T02:04:21.0975569+08:00;</History>
+  </PropertyGroup>
+</Project>
