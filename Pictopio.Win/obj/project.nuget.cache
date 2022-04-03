@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yyatFrl4UoNqNlESfqEYqXsZYhLwPjqED/rlNwlr0MCAekp2ryLeH6JOO5W9p4MpdZfL+4n3GCL3/B8pD5USkQ==",
+  "dgSpecHash": "TOzJKwXucuWOKC0yEdgASR2azNl6yR1cDH+2JKgoLreF1Ghu8fv3xnpONGD1gctAesnz3ZVTuFE/1Po4GndwWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\Pictopio.Win.csproj",
+  "projectFilePath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\Pictopio.Win.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gerard\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.charts\\21.2.3\\devexpress.charts.21.2.3.nupkg.sha512",

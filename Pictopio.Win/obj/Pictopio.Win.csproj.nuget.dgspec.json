@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\Pictopio.Win.csproj": {}
+    "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\Pictopio.Win.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj": {
+    "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
+        "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
         "projectName": "Pictopio.Module.Win",
-        "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
+        "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
         "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\obj\\",
+        "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -37,8 +37,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj": {
-                "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj"
+              "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
+                "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj": {
+    "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj",
+        "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj",
         "projectName": "Pictopio.Module",
-        "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj",
+        "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj",
         "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\obj\\",
+        "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\Pictopio.Win.csproj": {
+    "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\Pictopio.Win.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\Pictopio.Win.csproj",
+        "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\Pictopio.Win.csproj",
         "projectName": "Pictopio.Win",
-        "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\Pictopio.Win.csproj",
+        "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\Pictopio.Win.csproj",
         "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Win\\obj\\",
+        "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Win\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -262,11 +262,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj": {
-                "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj"
+              "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj": {
+                "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj"
               },
-              "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj": {
-                "projectPath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj"
+              "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
+                "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
               }
             }
           }

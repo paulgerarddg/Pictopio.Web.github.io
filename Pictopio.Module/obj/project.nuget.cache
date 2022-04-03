@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FPdT4k3nagAE6gx7a8giNQsFAWJegfDYmwhoRFehYJeluLxtMnXI0dLzM7e8Vb1sqvP8+AjetTh5SqIOmxlbJw==",
+  "dgSpecHash": "fGj1Wl8jzObYl8TT+owPNC2X6HUjl2LYHRw86aOdcYmICULGCjQeX0HgsQdduh0gvuphTxxsjLi7LZXg83DDcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Module\\Pictopio.Module.csproj",
+  "projectFilePath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.charts\\21.2.3\\devexpress.charts.21.2.3.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.charts.core\\21.2.3\\devexpress.charts.core.21.2.3.nupkg.sha512",

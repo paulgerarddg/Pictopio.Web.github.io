@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vUJ6VOH8kVbVZGPt3tcX6DOOhUC1+FB2+fty1okb/mS3reoxA4NZTYHnCq4/wYbqI1fbBrhtjTE7nVbgJP4n3A==",
+  "dgSpecHash": "HgfiEdyeBhjv4aP0uCGUeb7nBtgvbwcB1AQ9XoTn9PTpwa4piUERyYqo/wiOsQzwNdpsDw0qVC1mnrAY6eRbCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gerard\\source\\repos\\Web\\Pictopio\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
+  "projectFilePath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gerard\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.aspnetcore.common\\21.2.3\\devexpress.aspnetcore.common.21.2.3.nupkg.sha512",
