@@ -952,3 +952,884 @@ Loaded assemblies
 
 04.04.22 00:09:14.654	Application stopping
 =====================
+04.04.22 00:14:17.017	================================================================================
+04.04.22 00:14:17.027	Trace Log for Pictopio.Win is started
+04.04.22 00:14:17.049	================================================================================
+04.04.22 00:14:17.148	System Environment
+	OS Version: Microsoft Windows NT 10.0.19044.0
+	CLR Version: 5.0.15
+	eXpressApp Version: 21.2.3.0
+	eXpressApp File Version: 21.2.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+04.04.22 00:14:17.687	Initialize application
+=======================
+04.04.22 00:14:17.698		Command line arguments: 
+		G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+04.04.22 00:14:19.247	The ValueManagerType is initialized by the default value: SimpleValueManager.
+04.04.22 00:14:19.315	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at Pictopio.Win.PictopioWindowsFormsApplication.InitializeComponent() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\WinApplication.Designer.cs:line 98
+   at Pictopio.Win.PictopioWindowsFormsApplication..ctor() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\WinApplication.cs:line 16
+   at Pictopio.Win.Program.Main() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\Program.cs:line 32
+
+04.04.22 00:14:21.246	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+04.04.22 00:14:21.258	--------------------------------------------------------------------------------
+							
+
+04.04.22 00:14:21.397	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.2.dll
+	DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.2.dll
+	DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.2.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.AuditTrail.Xpo.v21.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.Win.v21.2.dll
+	DevExpress.ExpressApp.Objects.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v21.2.dll
+	DevExpress.ExpressApp.Security.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.2.dll
+	DevExpress.ExpressApp.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.2.dll
+	DevExpress.ExpressApp.Validation.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.2.dll
+	DevExpress.ExpressApp.Validation.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.2.dll
+	DevExpress.ExpressApp.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.2.dll
+	DevExpress.ExpressApp.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.2.dll
+	DevExpress.Persistent.Base.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v21.2.dll
+	DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.2.Core.dll
+	DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.2.dll
+	DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.2.dll
+	DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.2.dll
+	DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.2.dll
+	DevExpress.XtraReports.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.dll
+	DevExpress.XtraReports.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\netstandard.dll
+	Pictopio.Module, Version=1.0.8129.388, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.dll
+	Pictopio.Module.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.Win.dll
+	Pictopio.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Data.Common.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Debug.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TraceSource.dll
+	System.Drawing, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.FileSystem.dll
+	System.IO.MemoryMappedFiles, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Expressions.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Security.Permissions.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XmlSerializer.dll
+04.04.22 00:14:21.799	SetupModules
+04.04.22 00:14:22.375	Customize TypesInfo
+04.04.22 00:14:30.092		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+04.04.22 00:14:30.095		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+04.04.22 00:14:30.424	Logon With Parameters
+04.04.22 00:14:30.430		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 794b7cb9-6af4-4430-8b7d-3804e93ab616
+								Category: Unspecified
+
+04.04.22 00:14:30.743	Generate default Model for Action containers
+04.04.22 00:14:49.082	'Password' property editor: new value is '*******'
+04.04.22 00:14:49.186	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:14:49.189		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+04.04.22 00:14:49.194	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:14:49.196		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 794b7cb9-6af4-4430-8b7d-3804e93ab616
+								Category: Unspecified
+
+04.04.22 00:14:49.270	--------------------------------------------------------------------------------
+							Start logon process
+
+04.04.22 00:14:49.275	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+04.04.22 00:14:49.282		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=Pictopio;XpoDataStorePool=True;
+04.04.22 00:14:49.285		ConnectionString: 
+04.04.22 00:14:49.299	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+04.04.22 00:15:28.672	================================================================================
+04.04.22 00:15:28.682	Trace Log for Pictopio.Win is started
+04.04.22 00:15:28.686	================================================================================
+04.04.22 00:15:28.698	System Environment
+	OS Version: Microsoft Windows NT 10.0.19044.0
+	CLR Version: 5.0.15
+	eXpressApp Version: 21.2.3.0
+	eXpressApp File Version: 21.2.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+
+04.04.22 00:15:28.931	Initialize application
+=======================
+04.04.22 00:15:28.938		Command line arguments: 
+		G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+04.04.22 00:15:29.294	The ValueManagerType is initialized by the default value: SimpleValueManager.
+04.04.22 00:15:29.371	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.XafApplication.ModuleList_ModuleAdded(Object sender, ModuleRegisteredEventArgs e)
+   at DevExpress.ExpressApp.ModuleList.SetupModule(ModuleBase module)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at Pictopio.Win.PictopioWindowsFormsApplication.InitializeComponent() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\WinApplication.Designer.cs:line 98
+   at Pictopio.Win.PictopioWindowsFormsApplication..ctor() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\WinApplication.cs:line 16
+   at Pictopio.Win.Program.Main() in G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\Program.cs:line 32
+
+04.04.22 00:15:31.031	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+04.04.22 00:15:31.035	--------------------------------------------------------------------------------
+							
+
+04.04.22 00:15:31.103	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.2.dll
+	DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.2.dll
+	DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.2.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.AuditTrail.Xpo.v21.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.Win.v21.2.dll
+	DevExpress.ExpressApp.Objects.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v21.2.dll
+	DevExpress.ExpressApp.Security.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.2.dll
+	DevExpress.ExpressApp.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.2.dll
+	DevExpress.ExpressApp.Validation.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.2.dll
+	DevExpress.ExpressApp.Validation.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.2.dll
+	DevExpress.ExpressApp.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.2.dll
+	DevExpress.ExpressApp.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.2.dll
+	DevExpress.Persistent.Base.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v21.2.dll
+	DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.2.Core.dll
+	DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.2.dll
+	DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.2.dll
+	DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.2.dll
+	DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.2.dll
+	DevExpress.XtraReports.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.dll
+	DevExpress.XtraReports.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\netstandard.dll
+	Pictopio.Module, Version=1.0.8129.388, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.dll
+	Pictopio.Module.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.Win.dll
+	Pictopio.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Data.Common.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Debug.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TraceSource.dll
+	System.Drawing, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.FileSystem.dll
+	System.IO.MemoryMappedFiles, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Expressions.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Security.Permissions.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XmlSerializer.dll
+04.04.22 00:15:31.425	SetupModules
+04.04.22 00:15:31.879	Customize TypesInfo
+04.04.22 00:15:38.295		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+04.04.22 00:15:38.298		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+04.04.22 00:15:38.679	Logon With Parameters
+04.04.22 00:15:38.683		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1a1b61fa-a737-46a4-bcb0-399d49e2bcd3
+								Category: Unspecified
+
+04.04.22 00:15:38.860	Generate default Model for Action containers
+04.04.22 00:15:43.018	'Password' property editor: new value is '*******'
+04.04.22 00:15:43.098	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:15:43.100		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+04.04.22 00:15:43.103	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:15:43.105		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1a1b61fa-a737-46a4-bcb0-399d49e2bcd3
+								Category: Unspecified
+
+04.04.22 00:15:43.161	--------------------------------------------------------------------------------
+							Start logon process
+
+04.04.22 00:15:43.165	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+04.04.22 00:15:43.172		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=Pictopio;XpoDataStorePool=True;
+04.04.22 00:15:43.174		ConnectionString: 
+04.04.22 00:15:43.186	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+04.04.22 00:16:30.309	--------------------------------------------------------------------------------
+							UpdateDB
+
+04.04.22 00:16:30.348		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=Pictopio;XpoDataStorePool=True;
+04.04.22 00:17:55.667	--------------------------------------------------------------------------------
+							Logon failed
+
+04.04.22 00:17:55.669	Login failed for 'admin'. User name or password is incorrect.
+Pictopio.Win Error: 0 : 04.04.22 00:17:55.697	================================================================================
+The error occurred:
+
+	Type:       AuthenticationException
+	Message:    Login failed for 'admin'. User name or password is incorrect.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.ExpressApp.Security.AuthenticationStandard.Authenticate(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.Security.SecurityStrategyBase.Logon(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.2.dll
+	DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.2.dll
+	DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.2.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.AuditTrail.Xpo.v21.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.Win.v21.2.dll
+	DevExpress.ExpressApp.Objects.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v21.2.dll
+	DevExpress.ExpressApp.Security.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.2.dll
+	DevExpress.ExpressApp.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.2.dll
+	DevExpress.ExpressApp.Validation.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.2.dll
+	DevExpress.ExpressApp.Validation.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.2.dll
+	DevExpress.ExpressApp.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.2.dll
+	DevExpress.ExpressApp.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.2.dll
+	DevExpress.Images.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Images.v21.2.dll
+	DevExpress.Persistent.Base.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v21.2.dll
+	DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.2.Core.dll
+	DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.2.dll
+	DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.2.dll
+	DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.2.dll
+	DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.2.dll
+	DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraLayout.v21.2.dll
+	DevExpress.XtraNavBar.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraNavBar.v21.2.dll
+	DevExpress.XtraReports.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.dll
+	DevExpress.XtraReports.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+	DevExpress.XtraTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraTreeList.v21.2.dll
+	Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Microsoft.Win32.SystemEvents.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\netstandard.dll
+	Pictopio.Module, Version=1.0.8129.388, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.dll
+	Pictopio.Module.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.Win.dll
+	Pictopio.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Console.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Debug.dll
+	System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Drawing.Primitives.dll
+	System.Globalization, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Globalization.dll
+	System.IO, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.FileSystem.dll
+	System.IO.MemoryMappedFiles, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Queryable.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.Linq.dll
+	System.Reflection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Extensions.dll
+	System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Serialization.Formatters.dll
+	System.Security.Claims, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Security.Permissions.dll
+	System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Principal.Windows.dll
+	System.Text.Encoding, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.dll
+	System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.dll
+	System.Threading.Tasks, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.dll
+	System.Threading.Tasks.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Timer.dll
+	System.Transactions.Local, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Transactions.Local.dll
+	System.ValueTuple, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ValueTuple.dll
+	System.Windows.Forms, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XmlSerializer.dll
+	UIAutomationClient, Version=5.0.15.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\UIAutomationClient.dll
+	yw10ugmr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amara\AppData\Local\Temp\yw10ugmr.vwl
+================================================================================
+
+04.04.22 00:17:55.966	Action '1a1b61fa-a737-46a4-bcb0-399d49e2bcd3' done
+04.04.22 00:17:55.969	Action 'Logon' done
+04.04.22 00:18:16.979	'Password' property editor: new value is '*******'
+04.04.22 00:18:17.063	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:18:17.066		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+04.04.22 00:18:17.068	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:18:17.070		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1a1b61fa-a737-46a4-bcb0-399d49e2bcd3
+								Category: Unspecified
+
+04.04.22 00:18:17.083	--------------------------------------------------------------------------------
+							Start logon process
+
+04.04.22 00:18:17.151	--------------------------------------------------------------------------------
+							Logon failed
+
+04.04.22 00:18:17.153	Login failed for 'admin'. User name or password is incorrect.
+Pictopio.Win Error: 0 : 04.04.22 00:18:17.157	================================================================================
+The error occurred:
+
+	Type:       AuthenticationException
+	Message:    Login failed for 'admin'. User name or password is incorrect.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.ExpressApp.Security.AuthenticationStandard.Authenticate(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.Security.SecurityStrategyBase.Logon(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.2.dll
+	DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.2.dll
+	DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.2.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.AuditTrail.Xpo.v21.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.Win.v21.2.dll
+	DevExpress.ExpressApp.Objects.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v21.2.dll
+	DevExpress.ExpressApp.Security.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.2.dll
+	DevExpress.ExpressApp.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.2.dll
+	DevExpress.ExpressApp.Validation.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.2.dll
+	DevExpress.ExpressApp.Validation.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.2.dll
+	DevExpress.ExpressApp.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.2.dll
+	DevExpress.ExpressApp.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.2.dll
+	DevExpress.Images.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Images.v21.2.dll
+	DevExpress.Persistent.Base.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v21.2.dll
+	DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.2.Core.dll
+	DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.2.dll
+	DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.2.dll
+	DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.2.dll
+	DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.2.dll
+	DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraLayout.v21.2.dll
+	DevExpress.XtraNavBar.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraNavBar.v21.2.dll
+	DevExpress.XtraReports.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.dll
+	DevExpress.XtraReports.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+	DevExpress.XtraTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraTreeList.v21.2.dll
+	Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Microsoft.Win32.SystemEvents.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\netstandard.dll
+	Pictopio.Module, Version=1.0.8129.388, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.dll
+	Pictopio.Module.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.Win.dll
+	Pictopio.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Console.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Debug.dll
+	System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Drawing.Primitives.dll
+	System.Globalization, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Globalization.dll
+	System.IO, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.FileSystem.dll
+	System.IO.MemoryMappedFiles, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Queryable.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.Linq.dll
+	System.Reflection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Extensions.dll
+	System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Serialization.Formatters.dll
+	System.Security.Claims, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Security.Permissions.dll
+	System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Principal.Windows.dll
+	System.Text.Encoding, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.dll
+	System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.dll
+	System.Threading.Tasks, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.dll
+	System.Threading.Tasks.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Timer.dll
+	System.Transactions.Local, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Transactions.Local.dll
+	System.ValueTuple, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ValueTuple.dll
+	System.Windows.Forms, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XmlSerializer.dll
+	UIAutomationClient, Version=5.0.15.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\UIAutomationClient.dll
+	yw10ugmr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amara\AppData\Local\Temp\yw10ugmr.vwl
+================================================================================
+
+04.04.22 00:18:18.584	Action '1a1b61fa-a737-46a4-bcb0-399d49e2bcd3' done
+04.04.22 00:18:18.586	Action 'Logon' done
+04.04.22 00:18:20.283	'Password' property editor: new value is '*******'
+04.04.22 00:18:20.367	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:18:20.369		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+04.04.22 00:18:20.371	--------------------------------------------------------------------------------
+							Execute action
+
+04.04.22 00:18:20.373		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1a1b61fa-a737-46a4-bcb0-399d49e2bcd3
+								Category: Unspecified
+
+04.04.22 00:18:20.383	--------------------------------------------------------------------------------
+							Start logon process
+
+04.04.22 00:18:20.441	--------------------------------------------------------------------------------
+							Logon failed
+
+04.04.22 00:18:20.443	Login failed for 'admin'. User name or password is incorrect.
+Pictopio.Win Error: 0 : 04.04.22 00:18:20.447	================================================================================
+The error occurred:
+
+	Type:       UserFriendlyException
+	Message:    After three unsuccessful login attempts, the application will now be closed. Please consider contacting an administrator about your login details.
+	Data:       0 entries
+	Stack trace:
+
+
+	----------------
+	InnerException:
+
+			Type:       AuthenticationException
+			Message:    Login failed for 'admin'. User name or password is incorrect.
+			Data:       0 entries
+			Stack trace:
+
+   at DevExpress.ExpressApp.Security.AuthenticationStandard.Authenticate(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.Security.SecurityStrategyBase.Logon(IObjectSpace objectSpace)
+   at DevExpress.ExpressApp.XafApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+   at DevExpress.ExpressApp.Win.WinApplication.Logon(PopupWindowShowActionExecuteEventArgs logonWindowArgs)
+			InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.2.dll
+	DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.2.dll
+	DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.2.dll
+	DevExpress.ExpressApp.AuditTrail.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.AuditTrail.Xpo.v21.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.v21.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Dashboards.Win.v21.2.dll
+	DevExpress.ExpressApp.Objects.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.v21.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ReportsV2.Win.v21.2.dll
+	DevExpress.ExpressApp.Security.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.2.dll
+	DevExpress.ExpressApp.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.2.dll
+	DevExpress.ExpressApp.Validation.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.2.dll
+	DevExpress.ExpressApp.Validation.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.2.dll
+	DevExpress.ExpressApp.Win.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.2.dll
+	DevExpress.ExpressApp.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.2.dll
+	DevExpress.Images.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Images.v21.2.dll
+	DevExpress.Persistent.Base.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.Xpo.v21.2.dll
+	DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.2.Core.dll
+	DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.2.dll
+	DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.2.dll
+	DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.2.dll
+	DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.2.dll
+	DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraLayout.v21.2.dll
+	DevExpress.XtraNavBar.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraNavBar.v21.2.dll
+	DevExpress.XtraReports.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.dll
+	DevExpress.XtraReports.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraReports.v21.2.Extensions.dll
+	DevExpress.XtraTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\DevExpress.XtraTreeList.v21.2.dll
+	Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.dll
+	Microsoft.CodeAnalysis.CSharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+	Microsoft.IntelliTrace.TelemetryObserver.Common, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.Common.dll
+	Microsoft.IntelliTrace.TelemetryObserver.CoreClr, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\Microsoft.IntelliTrace.TelemetryObserver.CoreClr.dll
+	Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\Microsoft.Win32.SystemEvents.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\mscorlib.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\netstandard.dll
+	Pictopio.Module, Version=1.0.8129.388, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.dll
+	Pictopio.Module.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Module.Win.dll
+	Pictopio.Win, Version=1.0.8129.391, Culture=neutral, PublicKeyToken=null, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\Pictopio.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Concurrent.dll
+	System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Immutable.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Annotations.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Console.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Data.Common.dll
+	System.Data.SqlClient, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=G:\GitHub\Pictopio.Web.github.io\Pictopio.Win\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Debug.dll
+	System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Diagnostics.Tracing.dll
+	System.Drawing, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Drawing.Primitives.dll
+	System.Globalization, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Globalization.dll
+	System.IO, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.FileSystem.dll
+	System.IO.MemoryMappedFiles, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.IO.MemoryMappedFiles.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Expressions.dll
+	System.Linq.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Parallel.dll
+	System.Linq.Queryable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Linq.Queryable.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Private.Xml.Linq.dll
+	System.Reflection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Extensions.dll
+	System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Metadata.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Runtime.Serialization.Formatters.dll
+	System.Security.Claims, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Security.Permissions.dll
+	System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Security.Principal.Windows.dll
+	System.Text.Encoding, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.dll
+	System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.CodePages.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.dll
+	System.Threading.Tasks, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.dll
+	System.Threading.Tasks.Parallel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Tasks.Parallel.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Threading.Timer.dll
+	System.Transactions.Local, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Transactions.Local.dll
+	System.ValueTuple, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.ValueTuple.dll
+	System.Windows.Forms, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.dll
+	System.Windows.Forms.Design, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Design.dll
+	System.Windows.Forms.Primitives, Version=5.0.15.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.15\System.Xml.XmlSerializer.dll
+	UIAutomationClient, Version=5.0.15.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.15\UIAutomationClient.dll
+	yw10ugmr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Amara\AppData\Local\Temp\yw10ugmr.vwl
+================================================================================
+
+04.04.22 00:18:22.664	Action '1a1b61fa-a737-46a4-bcb0-399d49e2bcd3' done
+04.04.22 00:18:22.670	Window closing: Log In
+04.04.22 00:18:22.854	Action 'Logon' done
+04.04.22 00:18:22.856	Window closed: Log In
+04.04.22 00:18:22.979	Application stopping
+=====================
