@@ -22,3 +22,15 @@ C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debu
 C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.dll
 C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\ref\Pictopio.Module.dll
 C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.pdb
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.deps.json
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.dll
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\bin\Debug\net5.0\ref\Pictopio.Module.dll
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\bin\Debug\net5.0\Pictopio.Module.pdb
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.csproj.AssemblyReference.cache
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.AssemblyInfoInputs.cache
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.AssemblyInfo.cs
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.csproj.CoreCompileInputs.cache
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.dll
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\ref\Pictopio.Module.dll
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Module\obj\Debug\net5.0\Pictopio.Module.pdb

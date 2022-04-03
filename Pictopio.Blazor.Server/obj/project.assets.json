@@ -11694,26 +11694,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gerard\\.nuget\\packages\\": {},
+    "C:\\Users\\Amara\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
+      "projectUniqueName": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
       "projectName": "Pictopio.Blazor.Server",
-      "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
-      "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\obj\\",
+      "projectPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
+      "packagesPath": "C:\\Users\\Amara\\.nuget\\packages\\",
+      "outputPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gerard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Users\\Amara\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -11722,7 +11721,6 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -11731,11 +11729,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Blazor\\Pictopio.Module.Blazor.csproj": {
-              "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Blazor\\Pictopio.Module.Blazor.csproj"
+            "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Blazor\\Pictopio.Module.Blazor.csproj": {
+              "projectPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Blazor\\Pictopio.Module.Blazor.csproj"
             },
-            "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
-              "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
+            "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
+              "projectPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
             }
           }
         }
@@ -11817,12 +11815,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.14, 5.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11831,7 +11823,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

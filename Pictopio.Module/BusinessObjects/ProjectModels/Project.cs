@@ -79,7 +79,13 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
         }
 
 
-   
+
+        private string _Owner;
+        public string Owner
+        {
+            get { return _Owner; }
+            set { SetPropertyValue<string>(nameof(Owner), ref _Owner, value); }
+        }
 
 
 
