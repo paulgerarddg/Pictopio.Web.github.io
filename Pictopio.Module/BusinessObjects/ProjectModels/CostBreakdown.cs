@@ -46,13 +46,6 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
         //    this.PersistentProperty = "Paid";
         //
 
-        private Project _Project;
-        [Association]
-        public Project Project
-        {
-            get { return _Project; }
-            set { SetPropertyValue<Project>(nameof(Project), ref _Project, value); }
-        }
 
 
         private string _Description;
