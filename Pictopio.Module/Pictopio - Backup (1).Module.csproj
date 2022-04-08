@@ -27,15 +27,13 @@
     <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="21.2.3" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.XtraEditors.v21.2">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.win.navigation\21.2.3\lib\netcoreapp3.0\DevExpress.XtraEditors.v21.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v21.2">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.win.printing\21.2.3\lib\netcoreapp3.0\DevExpress.XtraPrinting.v21.2.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
+    <None Update="UnusableNodes.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
     <None Update="UnusableNodes1.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes2.xml">
       <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
     </None>
   </ItemGroup>

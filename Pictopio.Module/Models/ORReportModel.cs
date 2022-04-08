@@ -89,7 +89,7 @@ namespace Pictopio.Module.Models
             if (Company == null) return;
             var dt = new DateTime(Year, (int)(Month + 1), 1);
             var op = GroupOperator.Combine(GroupOperatorType.And,
-                    new BinaryOperator("Project.Company.Oid", Company.Oid),
+                    new BinaryOperator("Company.Oid", Company.Oid),
                     CriteriaOperator.Parse("DateReleased>=? and DateReleased<=?", dt.Date, dt.Date.AddMonths(1).AddSeconds(-1)));
 
             var PettyCashs = _objectSpace.GetObjects<PettyCash>(op);

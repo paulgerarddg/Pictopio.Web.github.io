@@ -8631,25 +8631,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amara\\.nuget\\packages\\": {},
+    "C:\\Users\\Gerard\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
+      "projectUniqueName": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
       "projectName": "Pictopio.Module.Win",
-      "projectPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
-      "packagesPath": "C:\\Users\\Amara\\.nuget\\packages\\",
-      "outputPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\obj\\",
+      "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\Pictopio.Module.Win.csproj",
+      "packagesPath": "C:\\Users\\Gerard\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module.Win\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Amara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gerard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -8658,6 +8659,7 @@
         "net5.0-windows7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -8666,8 +8668,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
-              "projectPath": "G:\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
+            "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj": {
+              "projectPath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Module\\Pictopio.Module.csproj"
             }
           }
         }
@@ -8741,7 +8743,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

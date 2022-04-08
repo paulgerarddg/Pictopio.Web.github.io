@@ -15,6 +15,7 @@ using System.Text;
 namespace Pictopio.Module.BusinessObjects.ProjectModels
 {
     [DefaultClassOptions]
+    [NavigationItem(ModuleName.Project)]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]

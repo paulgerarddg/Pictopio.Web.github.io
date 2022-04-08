@@ -505,3 +505,7 @@ G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\ref\Pic
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\Pictopio.Blazor.Server.pdb
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\Pictopio.Blazor.Server.genruntimeconfig.cache
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\Pictopio.Module.Blazor.StaticWebAssets.xml
+C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\DevExpress.XtraPrinting.v21.2.dll
+C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\DevExpress.XtraPrinting.v21.2.xml
+C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\DevExpress.XtraEditors.v21.2.dll
+C:\Users\Gerard\Documents\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\DevExpress.XtraEditors.v21.2.xml

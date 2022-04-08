@@ -41,8 +41,6 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
             set { SetPropertyValue<string>(nameof(ProjectId), ref _ProjectId, value); }
         }
 
-
-        private decimal _RunningSummary;
         public decimal RunningSummary
         {
             get { return ProjectCost - TotalApprovedPurchaseOrder - TotalLabor - TotalPettyCashReleased; }

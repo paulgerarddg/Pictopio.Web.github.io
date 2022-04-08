@@ -34,7 +34,7 @@ namespace Pictopio.Module.Controllers
             this.components = new System.ComponentModel.Container();
             this.printOr = new DevExpress.ExpressApp.Actions.PopupWindowShowAction(this.components);
 
-            this.printOr.Caption = "Manage DTR";
+            this.printOr.Caption = "Print BIR Report";
             this.printOr.Category = "Edit";
             this.printOr.ConfirmationMessage = null;
             this.printOr.Id = "660fd53b-c287-4671-97ca-bf3f637e7abf";

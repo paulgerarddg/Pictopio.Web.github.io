@@ -48,6 +48,15 @@ namespace Pictopio.Module.BusinessObjects.PettyCashModels
         }
 
 
+        private Company _Company;
+        [Association]
+        public Company Company
+        {
+            get { return _Company; }
+            set { SetPropertyValue<Company>(nameof(Company), ref _Company, value); }
+        }
+
+
         private ProjectModels.Project _Project;
         [Association]
         public ProjectModels.Project Project

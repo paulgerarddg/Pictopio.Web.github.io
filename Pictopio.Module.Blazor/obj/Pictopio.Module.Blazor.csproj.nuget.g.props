@@ -5,12 +5,12 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Amara\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Gerard\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\Amara\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Gerard\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
@@ -25,7 +25,7 @@
     <Import Project="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.dashboards.blazor\21.2.3\buildTransitive\DevExpress.ExpressApp.Dashboards.Blazor.props" Condition="Exists('C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.dashboards.blazor\21.2.3\buildTransitive\DevExpress.ExpressApp.Dashboards.Blazor.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Amara\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Gerard\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgDevExpress_ExpressApp_CodeAnalysis Condition=" '$(PkgDevExpress_ExpressApp_CodeAnalysis)' == '' ">C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\devexpress.expressapp.codeanalysis\21.2.3</PkgDevExpress_ExpressApp_CodeAnalysis>
   </PropertyGroup>
 </Project>

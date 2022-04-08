@@ -44,5 +44,11 @@ namespace Pictopio.Module.BusinessObjects
             get { return GetCollection<ProjectModels.Project>(nameof(Projects)); }
         }
 
+        [Association]
+        public XPCollection<PettyCashModels.PettyCash> OrList
+        {
+            get { return GetCollection<PettyCashModels.PettyCash>(nameof(OrList)); }
+        }
+
     }
 }

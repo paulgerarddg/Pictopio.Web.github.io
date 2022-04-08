@@ -4,16 +4,25 @@ using DevExpress.ExpressApp.Actions;
 using DevExpress.ExpressApp.Editors;
 using DevExpress.ExpressApp.Layout;
 using DevExpress.ExpressApp.Model.NodeGenerators;
+using DevExpress.ExpressApp.ReportsV2;
 using DevExpress.ExpressApp.SystemModule;
 using DevExpress.ExpressApp.Templates;
 using DevExpress.ExpressApp.Utils;
 using DevExpress.Persistent.Base;
+using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
+using DevExpress.XtraReports.UI;
+using System.Windows.Forms;
+using Pictopio.Module.BusinessObjects;
+using Pictopio.Module.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using DevExpress.Utils;
+using DevExpress.XtraEditors;
+using DevExpress.XtraReports.UI;
 namespace Pictopio.Module.Controllers
 {
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppViewControllertopic.aspx.
@@ -42,13 +51,39 @@ namespace Pictopio.Module.Controllers
 
         private void printOr_CustomizePopupWindowParams(object sender, CustomizePopupWindowParamsEventArgs e)
         {
-            var selectedObjects = View.SelectedObjects;
-            var _objectSpace = Application.CreateObjectSpace();
-           // var view
+            var current = View.CurrentObject as Company;
+            var objectSpace = Application.CreateObjectSpace();
+            var mdl = new ORReportModel(objectSpace);
+            e.View = Application.CreateDetailView(objectSpace, mdl);
         }
         private void printOr_Execute(object sender, PopupWindowShowActionExecuteEventArgs e)
         {
 
+            var mdl = e.PopupWindowViewCurrentObject as ORReportModel;
+            if (mdl == null) return;
+            try
+            {
+                var _objectSpace = mdl._objectSpace;
+                IReportDataV2 reportData =
+                       _objectSpace.FindObject<ReportDataV2>(new BinaryOperator("DisplayName", "BIR Report"));
+
+                if (reportData == null)
+                {
+                    throw new UserFriendlyException("Cannot find the 'BIR' report.");
+                }
+                XtraReport report = ReportDataProvider.ReportsStorage.LoadReport(reportData);
+                ReportsModuleV2 reportsModule = ReportsModuleV2.FindReportsModule(Application.Modules);
+                if (reportsModule?.ReportsDataSourceHelper != null)
+                {
+                    reportsModule.ReportsDataSourceHelper.SetupBeforePrint(report);
+                }
+                report.DataSource = mdl;
+                var printTool = new ReportPrintTool(report);
+                printTool.ShowRibbonPreview();
+            }
+            catch (Exception ex)
+            {
+            }
         }
     }
 }
