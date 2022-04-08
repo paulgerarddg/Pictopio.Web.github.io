@@ -79,7 +79,6 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
         }
 
 
-
         private string _Owner;
         public string Owner
         {
@@ -88,6 +87,14 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
         }
 
 
+
+
+        private bool _Vat;
+        public bool Vat
+        {
+            get { return _Vat; }
+            set { SetPropertyValue<bool>(nameof(Vat), ref _Vat, value); }
+        }
 
 
 
@@ -117,6 +124,7 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
 
 
         private string _Location;
+        
         public string Location
         {
             get { return _Location; }

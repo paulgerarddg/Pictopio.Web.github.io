@@ -23,35 +23,39 @@
     <DetailView Id="Project_DetailView">
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="78.14029363784665">
-            <LayoutGroup Id="Project" RelativeSize="55.94989561586639" Index="0" Direction="Vertical">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="66.35514018691589">
+            <LayoutGroup Id="Project" RelativeSize="57.545271629778675" Index="0" Direction="Vertical">
               <LayoutGroup Id="Project_col1" RelativeSize="100" Caption="Project_col1">
-                <LayoutGroup Id="Autoc5e89d73-6243-4c37-9b3b-a221f443f4fd" ShowCaption="False" Caption="Autoc5e89d73-6243-4c37-9b3b-a221f443f4fd(5)" Direction="Horizontal" Index="0" RelativeSize="21.70212765957447" IsNewNode="True">
-                  <LayoutItem Id="Name" ViewItem="Name" CaptionLocation="Top" Index="0" RelativeSize="50" IsNewNode="True" />
-                  <LayoutItem Id="ProjectId" ViewItem="ProjectId" CaptionLocation="Top" Index="1" RelativeSize="50" IsNewNode="True" />
+                <LayoutGroup Id="Autoc5e89d73-6243-4c37-9b3b-a221f443f4fd" ShowCaption="False" Caption="Autoc5e89d73-6243-4c37-9b3b-a221f443f4fd(5)" Direction="Horizontal" Index="0" RelativeSize="62.45059288537549" IsNewNode="True">
+                  <LayoutGroup Id="Auto99a52ec9-89ad-4378-ae70-79b6257c7baa" ShowCaption="False" Caption="Auto99a52ec9-89ad-4378-ae70-79b6257c7baa(6)" Index="0" RelativeSize="49.834983498349835" IsNewNode="True">
+                    <LayoutItem Id="Name" ViewItem="Name" CaptionLocation="Top" Index="0" RelativeSize="30.379746835443036" IsNewNode="True" />
+                    <LayoutItem Id="ProjectId" ViewItem="ProjectId" CaptionLocation="Top" Index="1" RelativeSize="25.31645569620253" IsNewNode="True" />
+                    <LayoutItem Id="Company" ViewItem="Company" CaptionLocation="Top" Index="2" RelativeSize="25.31645569620253" IsNewNode="True" />
+                    <LayoutItem Id="Owner" ViewItem="Owner" Index="3" RelativeSize="18.9873417721519" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Location" ViewItem="Location" CaptionLocation="Top" Index="1" RelativeSize="50.165016501650165" IsNewNode="True" />
                 </LayoutGroup>
                 <LayoutItem Id="Name" ViewItem="Name" CaptionLocation="Top" Index="0" RelativeSize="18.46153846153846" Removed="True" />
-                <LayoutGroup Id="Auto309147cc-ae72-4c78-b016-a0be5634875e" ShowCaption="False" Caption="Auto309147cc-ae72-4c78-b016-a0be5634875e(8)" Index="1" RelativeSize="57.87234042553192" IsNewNode="True">
-                  <LayoutItem Id="Location" ViewItem="Location" Index="0" RelativeSize="31.61764705882353" CaptionLocation="Top" IsNewNode="True" />
-                  <LayoutGroup Id="Autoaec91fd0-1b2f-4fff-ba73-f7315df5f949" ShowCaption="False" Caption="Autoaec91fd0-1b2f-4fff-ba73-f7315df5f949(8)" Direction="Horizontal" Index="1" RelativeSize="68.38235294117646" IsNewNode="True">
+                <LayoutGroup Id="Auto309147cc-ae72-4c78-b016-a0be5634875e" ShowCaption="False" Caption="Auto309147cc-ae72-4c78-b016-a0be5634875e(8)" Index="1" RelativeSize="37.54940711462451" IsNewNode="True">
+                  <LayoutGroup Id="Autoaec91fd0-1b2f-4fff-ba73-f7315df5f949" ShowCaption="False" Caption="Autoaec91fd0-1b2f-4fff-ba73-f7315df5f949(8)" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
                     <LayoutGroup Id="Item5" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="50" Caption="Project Details" Direction="Horizontal" IsNewNode="True">
-                      <LayoutItem Id="LotArea" ViewItem="LotArea" CaptionLocation="Top" Index="0" RelativeSize="50" IsNewNode="True" />
-                      <LayoutItem Id="FloorArea" ViewItem="FloorArea" CaptionLocation="Top" Index="1" RelativeSize="50" IsNewNode="True" />
+                      <LayoutItem Id="LotArea" ViewItem="LotArea" CaptionLocation="Top" Index="0" RelativeSize="49.745331069609506" IsNewNode="True" />
+                      <LayoutItem Id="FloorArea" ViewItem="FloorArea" CaptionLocation="Top" Index="1" RelativeSize="50.254668930390494" IsNewNode="True" />
                     </LayoutGroup>
                     <LayoutGroup Id="Item6" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="1" RelativeSize="50" Caption="Project Date" IsNewNode="True">
-                      <LayoutItem Id="StartDate" ViewItem="StartDate" Index="0" RelativeSize="50" CaptionLocation="Top" IsNewNode="True" />
-                      <LayoutItem Id="ProjectDeadline" ViewItem="ProjectDeadline" Index="1" RelativeSize="50" CaptionLocation="Top" IsNewNode="True" />
+                      <LayoutItem Id="StartDate" ViewItem="StartDate" Index="0" RelativeSize="49.745331069609506" CaptionLocation="Top" IsNewNode="True" />
+                      <LayoutItem Id="ProjectDeadline" ViewItem="ProjectDeadline" Index="1" RelativeSize="50.254668930390494" CaptionLocation="Top" IsNewNode="True" />
                     </LayoutGroup>
                   </LayoutGroup>
                 </LayoutGroup>
                 <LayoutItem Id="ProjectId" ViewItem="ProjectId" CaptionLocation="Top" Index="1" RelativeSize="15.384615384615385" Removed="True" />
-                <LayoutItem Id="Company" ViewItem="Company" CaptionLocation="Top" Index="2" RelativeSize="20.425531914893618" IsNewNode="True" />
+                <LayoutItem Id="Owner" Index="2" RelativeSize="12.5" Removed="True" />
                 <LayoutItem Id="ProjectCost" ViewItem="ProjectCost" Index="2" RelativeSize="8.823529411764707" Removed="True" />
                 <LayoutItem Id="LotArea" RelativeSize="16.129032258064516" Index="3" CaptionLocation="Top" Removed="True" />
                 <LayoutItem Id="StartDate" RelativeSize="10.909090909090908" Index="3" Removed="True" />
                 <LayoutItem Id="FloorArea" RelativeSize="16.129032258064516" Index="4" CaptionLocation="Top" Removed="True" />
-                <LayoutItem Id="ProjectDeadline" RelativeSize="10.909090909090908" Index="4" Removed="True" />
                 <LayoutItem Id="RunningSummary" RelativeSize="10.714285714285714" Removed="True" />
+                <LayoutItem Id="Vat" Removed="True" />
               </LayoutGroup>
               <LayoutGroup Id="Project_col2" RelativeSize="43.626062322946176" Caption="Project_col2" Removed="True">
                 <LayoutItem Id="Company" ViewItem="Company" CaptionLocation="Top" Index="0" RelativeSize="100" Removed="True" />
@@ -63,23 +67,24 @@
                 <LayoutItem Id="TotalApprovedPurchaseOrder" RelativeSize="17.24137931034483" Index="3" CaptionLocation="Top" Removed="True" />
               </LayoutGroup>
             </LayoutGroup>
-            <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="26.51356993736952" Caption="Project Cost" IsNewNode="True">
+            <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="25.553319919517104" Caption="Project Cost" IsNewNode="True">
               <LayoutGroup Id="Auto0f4201c0-02b9-4ca2-9902-e6ab48d35a9a" ShowCaption="False" Caption="Auto0f4201c0-02b9-4ca2-9902-e6ab48d35a9a(18)" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
-                <LayoutItem Id="ProjectCost" ViewItem="ProjectCost" CaptionLocation="Top" Index="0" RelativeSize="50" IsNewNode="True" />
-                <LayoutItem Id="RunningSummary" ViewItem="RunningSummary" CaptionLocation="Top" Index="1" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="ProjectCost" ViewItem="ProjectCost" CaptionLocation="Top" Index="0" RelativeSize="36.633663366336634" IsNewNode="True" />
+                <LayoutItem Id="RunningSummary" ViewItem="RunningSummary" CaptionLocation="Top" Index="1" RelativeSize="34.240924092409244" IsNewNode="True" />
+                <LayoutItem Id="TotalLabor" ViewItem="TotalLabor" CaptionLocation="Top" Index="2" RelativeSize="29.125412541254125" IsNewNode="True" />
               </LayoutGroup>
               <LayoutGroup Id="Auto1df59629-c0ed-4798-b4c1-57d06bdc9f38" ShowCaption="False" Caption="Auto1df59629-c0ed-4798-b4c1-57d06bdc9f38(17)" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
-                <LayoutItem Id="TotalPettyCashReleased" ViewItem="TotalPettyCashReleased" CaptionLocation="Top" Index="0" RelativeSize="33.147632311977716" IsNewNode="True" />
-                <LayoutItem Id="TotalApprovedPurchaseOrder" ViewItem="TotalApprovedPurchaseOrder" CaptionLocation="Top" Index="1" RelativeSize="33.286908077994426" IsNewNode="True" />
-                <LayoutItem Id="TotalLabor" ViewItem="TotalLabor" CaptionLocation="Top" Index="2" RelativeSize="33.56545961002786" IsNewNode="True" />
+                <LayoutItem Id="TotalPettyCashReleased" ViewItem="TotalPettyCashReleased" CaptionLocation="Top" Index="0" RelativeSize="36.633663366336634" IsNewNode="True" />
+                <LayoutItem Id="TotalApprovedPurchaseOrder" ViewItem="TotalApprovedPurchaseOrder" CaptionLocation="Top" Index="1" RelativeSize="34.07590759075907" IsNewNode="True" />
+                <LayoutItem Id="Vat" ViewItem="Vat" Index="2" RelativeSize="29.29042904290429" IsNewNode="True" />
               </LayoutGroup>
             </LayoutGroup>
-            <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="2" RelativeSize="17.53653444676409" Caption="Billing" IsNewNode="True">
+            <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="2" RelativeSize="16.901408450704224" Caption="Billing" IsNewNode="True">
               <LayoutItem Id="TotalBillingApproved" ViewItem="TotalBillingApproved" CaptionLocation="Top" Index="0" RelativeSize="50" IsNewNode="True" />
               <LayoutItem Id="TotalBillingPaid" ViewItem="TotalBillingPaid" CaptionLocation="Top" Index="1" RelativeSize="50" IsNewNode="True" />
             </LayoutGroup>
           </LayoutGroup>
-          <LayoutGroup Id="Auto414bf8d0-69b7-4938-8cf5-3f207e76d284" ShowCaption="False" Caption="Auto414bf8d0-69b7-4938-8cf5-3f207e76d284(31)" Direction="Horizontal" Index="1" RelativeSize="21.859706362153343" IsNewNode="True">
+          <LayoutGroup Id="Auto414bf8d0-69b7-4938-8cf5-3f207e76d284" ShowCaption="False" Caption="Auto414bf8d0-69b7-4938-8cf5-3f207e76d284(31)" Direction="Horizontal" Index="1" RelativeSize="33.64485981308411" IsNewNode="True">
             <TabbedGroup Id="Item3" CaptionLocation="Top" Index="0" RelativeSize="50" IsNewNode="True">
               <LayoutGroup Id="ProjectMaterials" ShowCaption="True" Caption="Project Materials" Index="0" RelativeSize="100" IsNewNode="True">
                 <LayoutItem Id="ProjectMaterials" ViewItem="ProjectMaterials" Index="0" RelativeSize="100" IsNewNode="True" />

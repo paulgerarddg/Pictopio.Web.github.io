@@ -504,3 +504,4 @@ G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\Pictopi
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\ref\Pictopio.Blazor.Server.dll
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\Pictopio.Blazor.Server.pdb
 G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\obj\Debug\net5.0\Pictopio.Blazor.Server.genruntimeconfig.cache
+G:\GitHub\Pictopio.Web.github.io\Pictopio.Blazor.Server\bin\Debug\net5.0\Pictopio.Module.Blazor.StaticWebAssets.xml
