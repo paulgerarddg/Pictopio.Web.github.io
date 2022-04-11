@@ -12,10 +12,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 
-namespace Pictopio.Module.BusinessObjects.ProjectModels
+namespace Pictopio.Module.BusinessObjects.BillingModels
 {
     [DefaultClassOptions]
-    [NavigationItem(ModuleName.Project)]
+    [NavigationItem(ModuleName.Billing)]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
@@ -63,10 +63,25 @@ namespace Pictopio.Module.BusinessObjects.ProjectModels
             set { SetPropertyValue<decimal>(nameof(Amount), ref _Amount, value); }
         }
 
+        private bool _IsVat;
+        public bool IsVat
+        {
+            get { return _IsVat; }
+            set { SetPropertyValue<bool>(nameof(IsVat), ref _IsVat, value); }
+        }
 
 
+        public decimal TotalAmount
+        {
+            get { return Amount + VatAmount; }
+        }
 
 
-
+        private decimal _VatAmount;
+        public decimal VatAmount
+        {
+            get { return _VatAmount; }
+            set { SetPropertyValue<decimal>(nameof(VatAmount), ref _VatAmount, value); }
+        }
     }
 }

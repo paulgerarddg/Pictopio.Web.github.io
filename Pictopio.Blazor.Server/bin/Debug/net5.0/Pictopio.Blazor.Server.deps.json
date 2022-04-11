@@ -45,6 +45,7 @@
           "DevExpress.Persistent.Base": "21.2.3",
           "DevExpress.Persistent.BaseImpl.Xpo": "21.2.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.7",
+          "Microsoft.QualityTools.Testing.Fakes": "16.11.230815",
           "MySql.Data": "8.0.28",
           "Pictopio.Module": "1.0.0",
           "Pictopio.Module.Blazor": "1.0.0",
@@ -598,7 +599,7 @@
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Diagnostics.PerformanceCounter": "4.5.0",
           "System.Drawing.Common": "5.0.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Text.Encoding.CodePages": "4.6.0"
         },
@@ -624,7 +625,7 @@
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Data.SqlClient": "4.5.0",
           "System.Drawing.Common": "5.0.0",
-          "System.Reflection.Emit": "4.3.0"
+          "System.Reflection.Emit": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/DevExpress.DataAccess.v21.2.dll": {
@@ -662,7 +663,7 @@
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Diagnostics.EventLog": "4.5.0",
           "System.Drawing.Common": "5.0.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Resources.Extensions": "4.6.0",
           "System.ServiceModel.Primitives": "4.6.0",
@@ -1047,7 +1048,7 @@
           "DevExpress.Data": "21.2.3",
           "NETStandard.Library": "2.0.3",
           "System.Drawing.Common": "5.0.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Security.Cryptography.Pkcs": "5.0.0"
         },
         "runtime": {
@@ -1124,7 +1125,7 @@
           "DevExpress.Printing.Core": "21.2.3",
           "NETStandard.Library": "2.0.3",
           "System.Drawing.Common": "5.0.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.Lightweight": "4.3.0"
         },
         "runtime": {
@@ -2317,6 +2318,62 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Microsoft.QualityTools.Testing.Fakes/16.11.230815": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.QualityTools.Testing.Fakes.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "16.1100.21.30815"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.QualityTools.Testing.Fakes.dll": {}
+        }
+      },
       "Microsoft.Spatial/7.9.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Spatial.dll": {
@@ -2744,7 +2801,7 @@
           "System.Linq.Expressions": "4.3.0",
           "System.ObjectModel": "4.3.0",
           "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Reflection.TypeExtensions": "4.3.0",
@@ -2859,7 +2916,7 @@
           "System.Linq": "4.3.0",
           "System.ObjectModel": "4.3.0",
           "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
@@ -2904,15 +2961,7 @@
         }
       },
       "System.Reflection.DispatchProxy/4.5.0": {},
-      "System.Reflection.Emit/4.3.0": {
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
+      "System.Reflection.Emit/4.7.0": {},
       "System.Reflection.Emit.ILGeneration/4.3.0": {
         "dependencies": {
           "System.Reflection": "4.3.0",
@@ -6150,6 +6199,13 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
+    "Microsoft.QualityTools.Testing.Fakes/16.11.230815": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4zdkDejtIHT84Q6MJyMUC03iAoN4rp2J1PtDr5QIkVvH/rtFpoPPkm5mbtl1i3sDjcW9RfwbRtMya5ceX9oEg==",
+      "path": "microsoft.qualitytools.testing.fakes/16.11.230815",
+      "hashPath": "microsoft.qualitytools.testing.fakes.16.11.230815.nupkg.sha512"
+    },
     "Microsoft.Spatial/7.9.0": {
       "type": "package",
       "serviceable": true,
@@ -6633,12 +6689,12 @@
       "path": "system.reflection.dispatchproxy/4.5.0",
       "hashPath": "system.reflection.dispatchproxy.4.5.0.nupkg.sha512"
     },
-    "System.Reflection.Emit/4.3.0": {
+    "System.Reflection.Emit/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
-      "path": "system.reflection.emit/4.3.0",
-      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
       "type": "package",

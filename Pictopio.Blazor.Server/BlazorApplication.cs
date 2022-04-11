@@ -33,6 +33,10 @@ namespace Pictopio.Blazor.Server {
             }
 #endif
         }
+        protected override bool ThrowIfNoKeyOnListViewCreation(DevExpress.ExpressApp.DC.ITypeInfo typeInfo)
+        {
+            return false;
+        }
         protected override void CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) {
             IXpoDataStoreProvider dataStoreProvider = GetDataStoreProvider(args.ConnectionString, args.Connection);
             args.ObjectSpaceProviders.Add(new SecuredObjectSpaceProvider((ISelectDataSecurityProvider)Security, dataStoreProvider, true));

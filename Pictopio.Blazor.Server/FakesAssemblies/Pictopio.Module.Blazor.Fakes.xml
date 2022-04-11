@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pictopio.Module.Blazor.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule">
+            <summary>Shim type of Pictopio.Module.Blazor.PictopioBlazorModule</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.#ctor(Pictopio.Module.Blazor.PictopioBlazorModule)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances.Application_CreateCustomUserModelDifferenceStoreObjectCreateCustomModelDifferenceStoreEventArgs">
+            <summary>Sets the Shim of PictopioBlazorModule.Application_CreateCustomUserModelDifferenceStore(PictopioBlazorModule this, Object sender, CreateCustomModelDifferenceStoreEventArgs e)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances.DisposeBoolean">
+            <summary>Sets the Shim of PictopioBlazorModule.Dispose(PictopioBlazorModule this, Boolean disposing)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances.GetModuleUpdatersIObjectSpaceVersion">
+            <summary>Sets the Shim of PictopioBlazorModule.GetModuleUpdaters(PictopioBlazorModule this, IObjectSpace objectSpace, Version versionFromDB)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances.InitializeComponent">
+            <summary>Sets the Shim of PictopioBlazorModule.InitializeComponent(PictopioBlazorModule this)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.AllInstances.SetupXafApplication">
+            <summary>Sets the Shim of PictopioBlazorModule.Setup(PictopioBlazorModule this, XafApplication application)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Application_CreateCustomUserModelDifferenceStoreObjectCreateCustomModelDifferenceStoreEventArgs">
+            <summary>Sets the Shim of PictopioBlazorModule.Application_CreateCustomUserModelDifferenceStore(PictopioBlazorModule this, Object sender, CreateCustomModelDifferenceStoreEventArgs e)</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Bind(DevExpress.ExpressApp.ISupportSetup)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.Constructor">
+            <summary>Sets the Shim of PictopioBlazorModule.PictopioBlazorModule(PictopioBlazorModule this)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.DisposeBoolean">
+            <summary>Sets the Shim of PictopioBlazorModule.Dispose(PictopioBlazorModule this, Boolean disposing)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.GetModuleUpdatersIObjectSpaceVersion">
+            <summary>Sets the Shim of PictopioBlazorModule.GetModuleUpdaters(PictopioBlazorModule this, IObjectSpace objectSpace, Version versionFromDB)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.InitializeComponent">
+            <summary>Sets the Shim of PictopioBlazorModule.InitializeComponent(PictopioBlazorModule this)</summary>
+        </member>
+        <member name="P:Pictopio.Module.Blazor.Fakes.ShimPictopioBlazorModule.SetupXafApplication">
+            <summary>Sets the Shim of PictopioBlazorModule.Setup(PictopioBlazorModule this, XafApplication application)</summary>
+        </member>
+    </members>
+</doc>

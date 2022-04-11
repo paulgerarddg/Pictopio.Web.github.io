@@ -19,10 +19,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using DevExpress.Utils;
 using DevExpress.XtraEditors;
-using DevExpress.XtraReports.UI;
+using DevExpress.XtraPrinting;
+
 namespace Pictopio.Module.Controllers
 {
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppViewControllertopic.aspx.
@@ -54,35 +54,49 @@ namespace Pictopio.Module.Controllers
             var current = View.CurrentObject as Company;
             var objectSpace = Application.CreateObjectSpace();
             var mdl = new ORReportModel(objectSpace);
-            e.View = Application.CreateDetailView(objectSpace, mdl);
+            var dv = Application.CreateDetailView(objectSpace, mdl);
+            dv.ViewEditMode = ViewEditMode.Edit;
+            e.View = dv;
         }
         private void printOr_Execute(object sender, PopupWindowShowActionExecuteEventArgs e)
         {
 
             var mdl = e.PopupWindowViewCurrentObject as ORReportModel;
             if (mdl == null) return;
+            var _objectSpace = mdl._objectSpace;
+            IReportDataV2 reportData =
+                   _objectSpace.FindObject<ReportDataV2>(new BinaryOperator("DisplayName", "BIR Report"));
+
+            if (reportData == null)
+            {
+                throw new UserFriendlyException("Cannot find the 'BIR' report.");
+            }
+            XtraReport report = ReportDataProvider.ReportsStorage.LoadReport(reportData);
+            ReportsModuleV2 reportsModule = ReportsModuleV2.FindReportsModule(Application.Modules);
+            if (reportsModule?.ReportsDataSourceHelper != null)
+            {
+                reportsModule.ReportsDataSourceHelper.SetupBeforePrint(report);
+            }
             try
             {
-                var _objectSpace = mdl._objectSpace;
-                IReportDataV2 reportData =
-                       _objectSpace.FindObject<ReportDataV2>(new BinaryOperator("DisplayName", "BIR Report"));
-
-                if (reportData == null)
-                {
-                    throw new UserFriendlyException("Cannot find the 'BIR' report.");
-                }
-                XtraReport report = ReportDataProvider.ReportsStorage.LoadReport(reportData);
-                ReportsModuleV2 reportsModule = ReportsModuleV2.FindReportsModule(Application.Modules);
-                if (reportsModule?.ReportsDataSourceHelper != null)
-                {
-                    reportsModule.ReportsDataSourceHelper.SetupBeforePrint(report);
-                }
                 report.DataSource = mdl;
                 var printTool = new ReportPrintTool(report);
                 printTool.ShowRibbonPreview();
+             
             }
             catch (Exception ex)
             {
+                try
+                {
+                    reportsModule.ReportsDataSourceHelper.SetupBeforePrint(report);
+                    report.CreateDocument();
+                    PrintToolBase tool = new PrintToolBase(report.PrintingSystem);
+                    tool.Print();
+                }
+                catch (Exception)
+                {
+
+                }
             }
         }
     }

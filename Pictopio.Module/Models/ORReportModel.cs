@@ -15,6 +15,7 @@ namespace Pictopio.Module.Models
 {
     [DomainComponent]
     [VisibleInReports]
+    [XafDisplayName("Print BIR Report")]
     public class ORReportModel : INotifyPropertyChanged
     {
         [VisibleInDetailView(false), VisibleInListView(false)]
@@ -31,9 +32,11 @@ namespace Pictopio.Module.Models
         {
             _objectSpace = objectSpace;
             Year = DateTime.Now.Year;
+            IsMonthly = true;
         }
 
         private MonthEnum _Month;
+        [ImmediatePostData(true)]
         public MonthEnum Month
         {
             get 
@@ -49,6 +52,7 @@ namespace Pictopio.Module.Models
         }
 
         private int _Year;
+        [ImmediatePostData(true)]
         public int Year
         {
             get
@@ -62,10 +66,58 @@ namespace Pictopio.Module.Models
                 GenerateItems();
             }
         }
+        private bool _IsMonthly;
+        [ImmediatePostData(true)]
+        public bool IsMonthly
+        {
+            get
+            {
+                return _IsMonthly;
+            }
+            set
+            {
+                _IsMonthly = value;
+
+                GenerateItems();
+            }
+        }
+
+
+        private DateTime _Start;
+        [ImmediatePostData(true)]
+        public DateTime Start
+        {
+            get
+            {
+                return _Start;
+            }
+            set
+            {
+                _Start = value;
+                GenerateItems();
+            }
+        }
+
+
+        private DateTime _End;
+        [ImmediatePostData(true)]
+        public DateTime End
+        {
+            get
+            {
+                return _End;
+            }
+            set
+            {
+                _End = value;
+                GenerateItems();
+            }
+        }
 
 
 
         private Company _Company;
+        [ImmediatePostData(true)]
         public Company Company
         {
             get
@@ -89,8 +141,15 @@ namespace Pictopio.Module.Models
             if (Company == null) return;
             var dt = new DateTime(Year, (int)(Month + 1), 1);
             var op = GroupOperator.Combine(GroupOperatorType.And,
-                    new BinaryOperator("Company.Oid", Company.Oid),
-                    CriteriaOperator.Parse("DateReleased>=? and DateReleased<=?", dt.Date, dt.Date.AddMonths(1).AddSeconds(-1)));
+             new BinaryOperator("Company.Oid", Company.Oid),
+             CriteriaOperator.Parse("DateReleased>=? and DateReleased<=?", dt.Date, dt.Date.AddMonths(1).AddSeconds(-1)));
+
+            if (!IsMonthly)
+            {
+               op = GroupOperator.Combine(GroupOperatorType.And,
+               new BinaryOperator("Company.Oid", Company.Oid),
+               CriteriaOperator.Parse("DateReleased>=? and DateReleased<=?", Start.Date, End.Date.AddMonths(1).AddSeconds(-1)));
+            }
 
             var PettyCashs = _objectSpace.GetObjects<PettyCash>(op);
             Items = new List<OrItemModel>();
@@ -98,10 +157,10 @@ namespace Pictopio.Module.Models
             {
                 var nItem = new OrItemModel
                 {
-                    Date = item.DateReleased, 
+                    Date = item.DateReleased,
                     Supplier = item.Store?.Name,
                     SupplierTin = item.Store?.TinNumber,
-                    SupplierAddress = item.Store?.Address, 
+                    SupplierAddress = item.Store?.Address,
                     Amount = item.Amount
 
                 };

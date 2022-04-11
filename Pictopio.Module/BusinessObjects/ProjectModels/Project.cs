@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using Pictopio.Module.BusinessObjects.BillingModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

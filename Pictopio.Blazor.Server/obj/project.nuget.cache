@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HgfiEdyeBhjv4aP0uCGUeb7nBtgvbwcB1AQ9XoTn9PTpwa4piUERyYqo/wiOsQzwNdpsDw0qVC1mnrAY6eRbCg==",
+  "dgSpecHash": "prhce3uptMyJ0HqYUApNZQolPKtypnH6wmvhY4BZuaoFbTi1iLDSBErW0aFtFpEJslij8tPKEgs3ctkh4V8HGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gerard\\Documents\\GitHub\\Pictopio.Web.github.io\\Pictopio.Blazor.Server\\Pictopio.Blazor.Server.csproj",
   "expectedPackageFiles": [
@@ -155,6 +155,7 @@
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.odata.edm\\7.9.0\\microsoft.odata.edm.7.9.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.odata.modelbuilder\\1.0.6\\microsoft.odata.modelbuilder.1.0.6.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.qualitytools.testing.fakes\\16.11.230815\\microsoft.qualitytools.testing.fakes.16.11.230815.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.spatial\\7.9.0\\microsoft.spatial.7.9.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
@@ -224,7 +225,7 @@
     "C:\\Users\\Gerard\\.nuget\\packages\\system.private.servicemodel\\4.6.0\\system.private.servicemodel.4.6.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.0\\system.reflection.dispatchproxy.4.5.0.nupkg.sha512",
-    "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Gerard\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

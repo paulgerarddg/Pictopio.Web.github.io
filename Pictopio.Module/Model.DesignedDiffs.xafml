@@ -6,10 +6,11 @@
   <NavigationItems>
     <Items>
       <Item Id="1. Project" Index="0" />
-      <Item Id="2. Expenses" Index="1" />
-      <Item Id="3. PurchaseOrder" Index="2" />
-      <Item Id="Default" Caption="4. Home" Index="3" />
+      <Item Id="2. Billing" Index="1" />
+      <Item Id="3. Expenses" Index="2" />
+      <Item Id="4. PurchaseOrder" Index="3" />
       <Item Id="Reports" Caption="5. Reports" Index="4" />
+      <Item Id="Default" Caption="6. Home" Index="5" />
     </Items>
   </NavigationItems>
   <Options>
@@ -20,6 +21,37 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <DetailView Id="ORReportModel_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="25.119236883942765">
+            <LayoutGroup Id="ORReportModel" Direction="Vertical" RelativeSize="100" Caption="Print OR">
+              <LayoutGroup Id="ORReportModel_col1" RelativeSize="100">
+                <LayoutGroup Id="Auto095a51eb-f524-42c8-aef3-3c78cb00f26e" ShowCaption="False" Caption="Auto095a51eb-f524-42c8-aef3-3c78cb00f26e(5)" Direction="Horizontal" Index="0" RelativeSize="29.41176470588235" IsNewNode="True">
+                  <LayoutItem Id="Month" ViewItem="Month" Index="0" RelativeSize="49.93045897079277" CaptionLocation="Left" IsNewNode="True" />
+                  <LayoutItem Id="Year" ViewItem="Year" Index="1" RelativeSize="32.962447844228095" CaptionLocation="Left" IsNewNode="True" />
+                  <LayoutItem Id="IsMonthly" ViewItem="IsMonthly" Index="2" RelativeSize="17.10709318497914" CaptionLocation="Left" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autod95a93d8-4898-49dc-8285-a2a859addd3b" ShowCaption="False" Caption="Autod95a93d8-4898-49dc-8285-a2a859addd3b(8)" Direction="Vertical" Index="1" RelativeSize="70.58823529411765" IsNewNode="True">
+                  <LayoutGroup Id="Auto045ff35d-cc1e-43ea-9c23-d903dec4930c" ShowCaption="False" Caption="Auto045ff35d-cc1e-43ea-9c23-d903dec4930c(10)" Direction="Horizontal" Index="0" RelativeSize="61.904761904761905" IsNewNode="True">
+                    <LayoutItem Id="Start" ViewItem="Start" CaptionLocation="Top" Index="0" RelativeSize="49.93045897079277" IsNewNode="True" />
+                    <LayoutItem Id="End" ViewItem="End" CaptionLocation="Top" Index="1" RelativeSize="50.06954102920723" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Company" ViewItem="Company" Index="1" RelativeSize="38.095238095238095" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="IsMonthly" Removed="True" />
+                <LayoutItem Id="Month" Removed="True" />
+                <LayoutItem Id="Year" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="ORReportModel_col2" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Items_Group" Direction="Vertical" RelativeSize="74.88076311605724" Caption="LIST">
+            <LayoutItem Id="Items" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
     <DetailView Id="Project_DetailView">
       <Items>
         <PropertyEditor Id="Vat" Caption="VAT" />
